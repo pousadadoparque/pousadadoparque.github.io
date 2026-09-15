@@ -102,6 +102,9 @@
     color:#fff; font-family:'Trebuchet MS',sans-serif; font-size:0.85rem; text-align:center; padding:20px;
     opacity:0.85;
   }
+  .foto-img{aspect-ratio:4/3; border-radius:12px; overflow:hidden;}
+  .foto-img img{width:100%; height:100%; object-fit:cover; display:block;}
+  .card .foto-img{aspect-ratio:16/10; border-radius:0;}
   .sobre-texto h3{font-size:1.5rem; margin-bottom:16px;}
   .sobre-texto p{margin-bottom:16px; color:#3f3f38;}
   .stats{display:flex; gap:32px; margin-top:28px; flex-wrap:wrap;}
@@ -194,7 +197,7 @@
   <div class="hero-content">
     <span class="kicker">Dentro do Parque Nacional da Chapada dos Guimarães</span>
     <h1>500 hectares de natureza preservada, a poucos passos do seu quarto</h1>
-    <p>11 acomodações cercadas por mata nativa, cachoeira, trilhas e mais de 390 espécies de aves catalogadas — a experiência que só quem hospeda dentro do Parque pode oferecer.</p>
+    <p>11 acomodações cercadas por mata nativa, trilhas, sítio arqueológico e mais de 390 espécies de aves catalogadas — a experiência que só quem hospeda dentro do Parque pode oferecer.</p>
     <a class="btn-primary" href="https://wa.me/556596716876?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Pousada%20do%20Parque%20e%20queria%20saber%20sobre%20disponibilidade." target="_blank" rel="noopener">
       Verificar disponibilidade no WhatsApp
     </a>
@@ -208,7 +211,7 @@
 
 <section class="sobre" id="sobre">
   <div class="container sobre-grid">
-    <div class="foto-placeholder"><!-- Substituir por foto real da fachada/área externa da pousada (ex: fachada.jpg) -->Foto da pousada<br>(inserir imagem real aqui)</div>
+    <div class="foto-img"><img src="pousada-entrada.jpg" alt="Entrada da Pousada do Parque"></div>
     <div class="sobre-texto">
       <h3>Contato direto com a natureza, sem aglomeração</h3>
       <p>A Pousada do Parque fica dentro do Parque Nacional da Chapada dos Guimarães, em meio a 500 hectares de área preservada. São apenas 11 acomodações — sem multidão, sem pressa — pensadas para quem busca silêncio, ar puro e vista aberta para o cerrado.</p>
@@ -231,42 +234,42 @@
     </div>
     <div class="cards">
       <div class="card">
-        <div class="foto-placeholder"><!-- foto: torre de observação --></div>
+        <div class="foto-img"><img src="pousada-torre.jpg" alt="Torre de Observação"></div>
         <div class="card-body">
           <h3>Torre de Observação</h3>
           <p>Vista panorâmica do cerrado e um dos melhores pontos da região para observação de aves.</p>
         </div>
       </div>
       <div class="card">
-        <div class="foto-placeholder"><!-- foto: trilhas ecológicas --></div>
+        <div class="foto-placeholder"></div>
         <div class="card-body">
           <h3>Trilhas Ecológicas</h3>
           <p>Trilhas guiadas ou autoguiadas em meio à mata nativa do Parque Nacional.</p>
         </div>
       </div>
       <div class="card">
-        <div class="foto-placeholder"><!-- foto: cachoeira --></div>
-        <div class="card-body">
-          <h3>Cachoeira</h3>
-          <p>Acesso à cachoeira da região de janeiro a junho, incluído na diária.</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="foto-placeholder"><!-- foto: sítio arqueológico / pinturas rupestres --></div>
+        <div class="foto-img"><img src="pousada-sitio.jpg" alt="Sítio Arqueológico com pinturas rupestres"></div>
         <div class="card-body">
           <h3>Sítio Arqueológico</h3>
           <p>Visitação autoguiada a pinturas rupestres dentro da própria área da pousada.</p>
         </div>
       </div>
       <div class="card">
-        <div class="foto-placeholder"><!-- foto: observação de aves --></div>
+        <div class="foto-img"><img src="pousada-tucano.jpg" alt="Observação de aves na Chapada dos Guimarães"></div>
         <div class="card-body">
           <h3>Observação de Aves</h3>
           <p>Mais de 390 espécies catalogadas no Parque Nacional — destino reconhecido internacionalmente por birdwatchers.</p>
         </div>
       </div>
       <div class="card">
-        <div class="foto-placeholder"><!-- foto: piscina / sauna / redário --></div>
+        <div class="foto-img"><img src="pousada-lagarto.jpg" alt="Fauna nativa do cerrado"></div>
+        <div class="card-body">
+          <h3>Fauna Selvagem</h3>
+          <p>Répteis, aves e outros animais do cerrado, avistados nas trilhas e nas proximidades da pousada.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="foto-img"><img src="pousada-piscina.jpg" alt="Piscina, sauna e redário da pousada"></div>
         <div class="card-body">
           <h3>Piscina, Sauna e Redário</h3>
           <p>Espaços de descanso dentro da própria pousada, incluídos na hospedagem.</p>
@@ -283,7 +286,7 @@
       <h2>11 acomodações, no meio do Parque</h2>
       <p>Apartamentos duplos, triplos e quádruplos, além de uma cabana — todos com café da manhã incluído.</p>
     </div>
-    <div class="foto-placeholder" style="aspect-ratio:21/9; margin-bottom:32px;"><!-- foto: interior de um dos apartamentos --></div>
+    <div class="foto-img" style="aspect-ratio:21/9; margin-bottom:32px;"><img src="pousada-casal.jpg" alt="Acomodação da Pousada do Parque"></div>
     <div class="lista-comodidades">
       <div>Café da manhã incluído</div>
       <div>Torre de Observação</div>
@@ -304,7 +307,7 @@
       <h2>Restaurante Teta da Loba</h2>
       <p>Comandado pelo chef Ale Salgueiro, o restaurante da pousada é parte da experiência — cardápio pensado para complementar os dias de trilha e contemplação dentro do Parque.</p>
     </div>
-    <div class="foto-placeholder"><!-- foto: prato ou ambiente do restaurante Teta da Loba --></div>
+    <div class="foto-img"><img src="pousada-restaurante.jpg" alt="Restaurante Teta da Loba"></div>
   </div>
 </section>
 
